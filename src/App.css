@@ -1,0 +1,17 @@
+html {
+  scroll-snap-type: y mandatory;
+}
+
+.app {
+  height: 100vh;
+  background-color: rgb(230, 231, 233);
+  margin: 0 auto;
+}
+
+.app_form{
+  width: 100%;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+}
